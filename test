@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="test.css" type="text/css">
+    </head>
+    <body>
+        <div class = "main">
+            <h1>
+                <span class = "text">ホームページ2</span>
+            </h1>
+            <h3>
+            <a href="https://google.com/">google</a>
+            </h3>
+            <h3>
+            <a href="https://yahoo.co.jp/">yahoo!japan</a>
+            </h3>
+            <p>
+            大城誠はゴーヤチャンプルが食べたい
+            </p>
+            リンさん
+            <img src="rin.png" alt="リンさん" title="リンさん" width="150pix" height="200pix">
+        </div>
+        <form>
+            
+    </body>
+</html> 

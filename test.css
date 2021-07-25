@@ -13,7 +13,7 @@
 .example{
     float: left;
     list-style: none;
-    height: 200px;
-    weight: 200px;
-    background-color: rgba(63, 81, 181, 0.7);
+    height: 400px;
+    weight: 400px;
+    background-color: rgba(63, 81, 181, 0.5);
 }

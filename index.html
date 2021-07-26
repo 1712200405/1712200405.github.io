@@ -41,7 +41,19 @@
             <img src="rin.png" alt="リンさん" title="リンさん" width="150pix" height="200pix">
             
         </div>
-        <form>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="text" name="name" placeholder="お名前">
+            <p>
+            <input type="text" name="email" placeholder="メールアドレス">
+            </p>
+            <textarea name="message"></textarea>
+            <input type="text" name="honeypot" style="display:none">
+            <input type="hidden" name="accessKey" value="46f628b5-9784-475a-8012-0bf3474ad542">
+            <input type="hidden" name="subject" value="Contact us from - example.com">
+            <input type="hidden" name="replyTo" value="@">
+            <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+            <input type="submit" value="送信">
+          </form>
             
     </body>
 </html> 

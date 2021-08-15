@@ -3,6 +3,25 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="test.css" type="text/css">
+        <script type="text/javascript">  
+        
+        function check(){
+        
+            if(window.confirm('送信してよろしいですか？')){ // 確認ダイアログを表示
+        
+                return true; // 「OK」時は送信を実行
+        
+            }
+            else{ // 「キャンセル」時の処理
+        
+                window.alert('キャンセルされました'); // 警告ダイアログを表示
+                return false; // 送信を中止
+        
+            }
+        
+        }
+        
+        </script>
     </head>
     <body bgcolor= #FFFAFA>
     
@@ -43,7 +62,7 @@
             <img src="rin.png" alt="リンさん" title="リンさん" width="150pix" height="200pix">
             </div>
         </div>
-        <form action="https://api.staticforms.xyz/submit" method="post">
+        <form action="https://api.staticforms.xyz/submit" method="post" onSubmit="return check()">
             <input type="text" name="name" placeholder="お名前">
             <p>
             <input type="text" name="email" placeholder="メールアドレス">

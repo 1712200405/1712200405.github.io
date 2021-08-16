@@ -33,7 +33,7 @@
 
 .text{
     position:relative;
-    top:20px;
+    top:0px;
     font-size:36px;
     color:rgb(8, 8, 8);
 }

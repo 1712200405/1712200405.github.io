@@ -3,37 +3,6 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="test.css" type="text/css">
-        <!--swiper-->
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
-        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-        <script>
-        //Swiper用のクラス指定
-        var mySwiper = new Swiper('.swiper-container', {
-          // カスタマイズ用、追加オプション
-          //direction: 'vertical',//←スライド方向のオプション
-          loop: true,//←ループオプション
-
-          // ページネーション用のクラス指定
-          pagination: {
-            el: '.swiper-pagination',
-          },
-
-          //ナビゲーション用のクラス指定
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-
-          //スクロールバー用のクラス指定
-          scrollbar: {
-            el: '.swiper-scrollbar',
-          },
-        })
-        </script>
         
         <script type="text/javascript">  
         
@@ -62,26 +31,7 @@
             </h1>
         </div>
         <div class = "main">
-            <!-- スライダーのメインコンテナー -->
-            <div class="swiper-container">
-                <!-- 追加で必須の囲みタグ -->
-                <div class="swiper-wrapper">
-                    <!-- ↓ここがスライドする部分 -->
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    ...
-                </div>
-                <!-- ↓ページネーション -->
-                <div class="swiper-pagination"></div>
-
-                <!-- ↓ナビゲーションボタン -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-
-                <!-- ↓スクロールバー -->
-                <div class="swiper-scrollbar"></div>
-            </div>
+            
             <h1>
                 <p>
                 <span class = "text">ホームページ</span>
